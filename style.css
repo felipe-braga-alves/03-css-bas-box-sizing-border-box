@@ -1,0 +1,20 @@
+div{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+/*
+    quando se define o tamamho de um elemento com width e height e acrescenta-se border e paddfing esses valores são somados ao vbalor geral do width e height, no caso do exemplo, 100 de altura +10 de padding (10 em cima e 10 em baixo + 10 de border (10 em cima e 10 em baixo) totalizando 140.
+    a propriedade box-sizing: border-box; especifica que o elemento terá como tamanho total o definido, no caso 100 de altura e 100 de largura, o padding e o border é acrescentado normalmente, mas o conteudo interno que é reduzido.
+*/
+
+.com-border-box{
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.sem-border-box{
+    background-color: brown;
+}
